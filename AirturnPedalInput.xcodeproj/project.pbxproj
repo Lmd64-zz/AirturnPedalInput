@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABE51EA1742469400F87C1C /* AirturnPedalDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE51E81742469400F87C1C /* AirturnPedalDriver.m */; };
+		0ABE51F0174246A500F87C1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE51EC174246A500F87C1C /* AppDelegate.m */; };
+		0ABE51F2174246A500F87C1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE51EF174246A500F87C1C /* ViewController.m */; };
+		0ABE51F7174246C600F87C1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABE51F6174246C600F87C1C /* main.m */; };
+		0ABE51FA174246D900F87C1C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE51F8174246D900F87C1C /* ViewController.xib */; };
+		0ABE52041742470F00F87C1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0ABE52021742470F00F87C1C /* InfoPlist.strings */; };
+		FE60083A14ACAC32003AC3B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60083914ACAC32003AC3B4 /* UIKit.framework */; };
+		FE60083C14ACAC32003AC3B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60083B14ACAC32003AC3B4 /* Foundation.framework */; };
+		FE60083E14ACAC32003AC3B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60083D14ACAC32003AC3B4 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ABE51E81742469400F87C1C /* AirturnPedalDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirturnPedalDriver.m; path = AirturnPedalInput/Driver/AirturnPedalDriver.m; sourceTree = SOURCE_ROOT; };
+		0ABE51E91742469400F87C1C /* AirturnPedalDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirturnPedalDriver.h; path = AirturnPedalInput/Driver/AirturnPedalDriver.h; sourceTree = SOURCE_ROOT; };
+		0ABE51EB174246A500F87C1C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AirturnPedalInput/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		0ABE51EC174246A500F87C1C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AirturnPedalInput/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		0ABE51EE174246A500F87C1C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = AirturnPedalInput/ViewController.h; sourceTree = SOURCE_ROOT; };
+		0ABE51EF174246A500F87C1C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = AirturnPedalInput/ViewController.m; sourceTree = SOURCE_ROOT; };
+		0ABE51F3174246BB00F87C1C /* AirturnPedalInput-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AirturnPedalInput-Info.plist"; path = "AirturnPedalInput/AirturnPedalInput-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0ABE51F4174246BB00F87C1C /* AirturnPedalInput-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AirturnPedalInput-Prefix.pch"; path = "AirturnPedalInput/AirturnPedalInput-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		0ABE51F6174246C600F87C1C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AirturnPedalInput/main.m; sourceTree = SOURCE_ROOT; };
+		0ABE51F9174246D900F87C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = AirturnPedalInput/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		0ABE52031742470F00F87C1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = AirturnPedalInput/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		FE60083514ACAC32003AC3B4 /* AirturnPedalInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirturnPedalInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE60083914ACAC32003AC3B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE60083B14ACAC32003AC3B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE60083D14ACAC32003AC3B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE60083214ACAC32003AC3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60083A14ACAC32003AC3B4 /* UIKit.framework in Frameworks */,
+				FE60083C14ACAC32003AC3B4 /* Foundation.framework in Frameworks */,
+				FE60083E14ACAC32003AC3B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE60082A14ACAC32003AC3B4 = {
+			isa = PBXGroup;
+			children = (
+				FE60085914ACAC50003AC3B4 /* Driver */,
+				FE60083F14ACAC32003AC3B4 /* AirturnSample */,
+				FE60083814ACAC32003AC3B4 /* Frameworks */,
+				FE60083614ACAC32003AC3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE60083614ACAC32003AC3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE60083514ACAC32003AC3B4 /* AirturnPedalInput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE60083814ACAC32003AC3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE60083914ACAC32003AC3B4 /* UIKit.framework */,
+				FE60083B14ACAC32003AC3B4 /* Foundation.framework */,
+				FE60083D14ACAC32003AC3B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE60083F14ACAC32003AC3B4 /* AirturnSample */ = {
+			isa = PBXGroup;
+			children = (
+				0ABE51EB174246A500F87C1C /* AppDelegate.h */,
+				0ABE51EC174246A500F87C1C /* AppDelegate.m */,
+				0ABE51EE174246A500F87C1C /* ViewController.h */,
+				0ABE51EF174246A500F87C1C /* ViewController.m */,
+				0ABE51F8174246D900F87C1C /* ViewController.xib */,
+				FE60084014ACAC32003AC3B4 /* Supporting Files */,
+			);
+			path = AirturnSample;
+			sourceTree = "<group>";
+		};
+		FE60084014ACAC32003AC3B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ABE52021742470F00F87C1C /* InfoPlist.strings */,
+				0ABE51F3174246BB00F87C1C /* AirturnPedalInput-Info.plist */,
+				0ABE51F4174246BB00F87C1C /* AirturnPedalInput-Prefix.pch */,
+				0ABE51F6174246C600F87C1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE60085914ACAC50003AC3B4 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				0ABE51E81742469400F87C1C /* AirturnPedalDriver.m */,
+				0ABE51E91742469400F87C1C /* AirturnPedalDriver.h */,
+			);
+			name = Driver;
+			path = AirturnSample/Driver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE60083414ACAC32003AC3B4 /* AirturnPedalInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE60085614ACAC33003AC3B4 /* Build configuration list for PBXNativeTarget "AirturnPedalInput" */;
+			buildPhases = (
+				FE60083114ACAC32003AC3B4 /* Sources */,
+				FE60083214ACAC32003AC3B4 /* Frameworks */,
+				FE60083314ACAC32003AC3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirturnPedalInput;
+			productName = AirturnSample;
+			productReference = FE60083514ACAC32003AC3B4 /* AirturnPedalInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE60082C14ACAC32003AC3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Sizzit;
+			};
+			buildConfigurationList = FE60082F14ACAC32003AC3B4 /* Build configuration list for PBXProject "AirturnPedalInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE60082A14ACAC32003AC3B4;
+			productRefGroup = FE60083614ACAC32003AC3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE60083414ACAC32003AC3B4 /* AirturnPedalInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE60083314ACAC32003AC3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABE51FA174246D900F87C1C /* ViewController.xib in Resources */,
+				0ABE52041742470F00F87C1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE60083114ACAC32003AC3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABE51EA1742469400F87C1C /* AirturnPedalDriver.m in Sources */,
+				0ABE51F0174246A500F87C1C /* AppDelegate.m in Sources */,
+				0ABE51F2174246A500F87C1C /* ViewController.m in Sources */,
+				0ABE51F7174246C600F87C1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0ABE51F8174246D900F87C1C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABE51F9174246D900F87C1C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		0ABE52021742470F00F87C1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ABE52031742470F00F87C1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE60085414ACAC33003AC3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE60085514ACAC33003AC3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE60085714ACAC33003AC3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirturnPedalInput/AirturnPedalInput-Prefix.pch";
+				INFOPLIST_FILE = "AirturnPedalInput/AirturnPedalInput-Info.plist";
+				PRODUCT_NAME = AirturnPedalInput;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE60085814ACAC33003AC3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirturnPedalInput/AirturnPedalInput-Prefix.pch";
+				INFOPLIST_FILE = "AirturnPedalInput/AirturnPedalInput-Info.plist";
+				PRODUCT_NAME = AirturnPedalInput;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE60082F14ACAC32003AC3B4 /* Build configuration list for PBXProject "AirturnPedalInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60085414ACAC33003AC3B4 /* Debug */,
+				FE60085514ACAC33003AC3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE60085614ACAC33003AC3B4 /* Build configuration list for PBXNativeTarget "AirturnPedalInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60085714ACAC33003AC3B4 /* Debug */,
+				FE60085814ACAC33003AC3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE60082C14ACAC32003AC3B4 /* Project object */;
+}
