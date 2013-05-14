@@ -8,6 +8,7 @@ Setting up the AirturnPedalDriver is simple:
 - Call startMonitoring when you want your view controller to start receiving pedal events, and stopMonitoring to block pedal events.
 - Implement the didReceiveInput: delegate method to handle events from the pedal.
 - Done!
+
 Check out the sample project for details.
 
 # Credits
