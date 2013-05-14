@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0ABE51E81742469400F87C1C /* AirturnPedalDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirturnPedalDriver.m; path = AirturnPedalInput/Driver/AirturnPedalDriver.m; sourceTree = SOURCE_ROOT; };
-		0ABE51E91742469400F87C1C /* AirturnPedalDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirturnPedalDriver.h; path = AirturnPedalInput/Driver/AirturnPedalDriver.h; sourceTree = SOURCE_ROOT; };
+		0ABE51E81742469400F87C1C /* AirturnPedalDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AirturnPedalDriver.m; path = AirturnPedalInput/AirturnPedalDriver/AirturnPedalDriver.m; sourceTree = SOURCE_ROOT; };
+		0ABE51E91742469400F87C1C /* AirturnPedalDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AirturnPedalDriver.h; path = AirturnPedalInput/AirturnPedalDriver/AirturnPedalDriver.h; sourceTree = SOURCE_ROOT; };
 		0ABE51EB174246A500F87C1C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AirturnPedalInput/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		0ABE51EC174246A500F87C1C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AirturnPedalInput/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		0ABE51EE174246A500F87C1C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = AirturnPedalInput/ViewController.h; sourceTree = SOURCE_ROOT; };
@@ -53,7 +53,7 @@
 		FE60082A14ACAC32003AC3B4 = {
 			isa = PBXGroup;
 			children = (
-				FE60085914ACAC50003AC3B4 /* Driver */,
+				FE60085914ACAC50003AC3B4 /* AirturnPedalDriver */,
 				FE60083F14ACAC32003AC3B4 /* AirturnSample */,
 				FE60083814ACAC32003AC3B4 /* Frameworks */,
 				FE60083614ACAC32003AC3B4 /* Products */,
@@ -102,13 +102,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FE60085914ACAC50003AC3B4 /* Driver */ = {
+		FE60085914ACAC50003AC3B4 /* AirturnPedalDriver */ = {
 			isa = PBXGroup;
 			children = (
 				0ABE51E81742469400F87C1C /* AirturnPedalDriver.m */,
 				0ABE51E91742469400F87C1C /* AirturnPedalDriver.h */,
 			);
-			name = Driver;
+			name = AirturnPedalDriver;
 			path = AirturnSample/Driver;
 			sourceTree = "<group>";
 		};
