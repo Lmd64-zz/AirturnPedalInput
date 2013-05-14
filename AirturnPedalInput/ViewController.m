@@ -7,6 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "AirturnPedalDriver.h"
+
+@interface ViewController () <AirturnPedalDelegate> {
+    AirturnPedalDriver *driver;
+}
+@end
 
 @implementation ViewController
 

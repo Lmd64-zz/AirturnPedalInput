@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AirturnPedalDriver.h"
 
-@interface ViewController : UIViewController <AirturnPedalDelegate>{
-    AirturnPedalDriver *driver;
-}
+@interface ViewController : UIViewController
 
 @end
