@@ -1,5 +1,5 @@
 # AirturnPedalInput
-The Airturn BT-105 Bluetooth Page Turner can be used for hands-free triggering of events in iOS. It functions as a Bluetooth keyboard, triggering *up* and *down* keyboard events when the *left* and *right pedals are pressed.
+The Airturn BT-105 Bluetooth Page Turner can be used for hands-free triggering of events in iOS. It functions as a Bluetooth keyboard, triggering *up* and *down* keyboard events when the *left* and *right* pedals are pressed.
 
 # Usage:
 Setting up the AirturnPedalDriver is simple:
